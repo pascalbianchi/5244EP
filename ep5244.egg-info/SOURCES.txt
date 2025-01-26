@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+ep5244/__init__.py
+ep5244/lab2.py
+ep5244.egg-info/PKG-INFO
+ep5244.egg-info/SOURCES.txt
+ep5244.egg-info/dependency_links.txt
+ep5244.egg-info/requires.txt
+ep5244.egg-info/top_level.txt

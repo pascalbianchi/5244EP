@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ep5244
+Version: 0.1
+Summary: Material for the 5244EP Labs
+Home-page: https://github.com/pascalbianchi/54244EP
+Author: Pascal Bianchi
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
