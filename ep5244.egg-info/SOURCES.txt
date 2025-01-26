@@ -7,3 +7,4 @@ ep5244.egg-info/SOURCES.txt
 ep5244.egg-info/dependency_links.txt
 ep5244.egg-info/requires.txt
 ep5244.egg-info/top_level.txt
+ep5244/data/height_weight_genders.csv

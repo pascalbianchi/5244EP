@@ -1,2 +1,2 @@
-include 5244EP-package/data/*.csv
+include ep5244/data/*.csv
 
