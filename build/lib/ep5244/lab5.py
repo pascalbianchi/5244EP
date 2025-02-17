@@ -168,6 +168,7 @@ def plot_proba_from_model(model, dataset, list_idx, device):
     num_images = len(list_idx)
     labels_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
                     'dog', 'frog', 'horse', 'ship', 'truck']
+    model.to(device)
     model.eval()
 
     # Create subplots: num_images rows, 2 columns
