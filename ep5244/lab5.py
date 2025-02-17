@@ -164,7 +164,7 @@ class FixedKernels_processing(nn.Module):
 
 
 
-def plot_proba_from_model(model, dataset, list_idx):
+def plot_proba_from_model(model, dataset, list_idx, device):
     num_images = len(list_idx)
     labels_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
                     'dog', 'frog', 'horse', 'ship', 'truck']
