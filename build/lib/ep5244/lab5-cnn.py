@@ -100,6 +100,7 @@ class FixedKernels_processing(nn.Module):
         if image.ndim == 2:
             # Grayscale image [H, W] -> add channel dimension -> [H, W, 1]
             image = image.unsqueeze(0)
+
         if image.ndim == 3:
             # If channels are in the last dimension, permute to [C, H, W]
             if image.shape[0] not in [1, 3]:
